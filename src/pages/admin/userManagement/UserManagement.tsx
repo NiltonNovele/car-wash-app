@@ -6,7 +6,7 @@ import { TUser } from "../../../types/User";
 const { Title } = Typography;
 const { Option } = Select;
 
-// Mock Data for Mozambican Users
+// Mock Data for Mozambican Users — now includes all required fields
 const mockMozUsers: TUser[] = [
   {
     _id: "1",
@@ -14,6 +14,11 @@ const mockMozUsers: TUser[] = [
     email: "carlos.mucavel@example.co.mz",
     phone: "+258841234567",
     role: "user",
+    password: "",
+    address: "Maputo",
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+    __v: 0,
   },
   {
     _id: "2",
@@ -21,6 +26,11 @@ const mockMozUsers: TUser[] = [
     email: "elisa.matusse@example.co.mz",
     phone: "+258842345678",
     role: "admin",
+    password: "",
+    address: "Matola",
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+    __v: 0,
   },
   {
     _id: "3",
@@ -28,6 +38,11 @@ const mockMozUsers: TUser[] = [
     email: "joao.mucambe@example.co.mz",
     phone: "+258843456789",
     role: "user",
+    password: "",
+    address: "Beira",
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+    __v: 0,
   },
   {
     _id: "4",
@@ -35,6 +50,11 @@ const mockMozUsers: TUser[] = [
     email: "fatima.bila@example.co.mz",
     phone: "+258844567890",
     role: "user",
+    password: "",
+    address: "Nampula",
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+    __v: 0,
   },
 ];
 
