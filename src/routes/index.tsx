@@ -55,9 +55,10 @@ const router = createBrowserRouter([
         element: <Location></Location>,
       },
       {
-        path: "/GestaoVeiculos",
+        path: "/post",
         element: <GestaoVeiculos />,
       },
+      
       {
         path: "*",
         element: <NotFoundPage />,
